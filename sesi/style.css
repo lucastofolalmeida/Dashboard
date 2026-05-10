@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Orbitron", sans-serif;
+  background: black;
+  color: white;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: #111;
+  border-bottom: 2px solid #ff4655;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px 40px;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+#icon {
+  width: 60px;
+  transition: 0.3s;
+  filter: drop-shadow(0 0 10px #ff003c);
+}
+
+#icon:hover {
+  transform: scale(1.08);
+}
+
+.title {
+  font-size: 1rem;
+  color: #f5d27a;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+#links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  transition: 0.3s;
+  position: relative;
+}
+
+#links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 0%;
+  height: 2px;
+  background: #ff003c;
+  transition: 0.3s;
+}
+
+#links a:hover {
+  color: #f5d27a;
+}
+
+#links a:hover::after {
+  width: 100%;
+}
+
+.capa {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  position: relative;
+  overflow: hidden;
+
+  background:
+    radial-gradient(circle at top, rgba(255, 0, 60, 0.15), transparent 30%),
+    radial-gradient(rgba(245, 210, 122, 0.12), transparent 30%), #000;
+
+  position: sticky;
+  top: 0;
+  transform-origin: center center;
+  will-change: transform, opacity;
+
+  transition: 0.1s linear;
+}
+
+.capa::before {
+  content: "";
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  background: radial-gradient(circle, rgba(255, 0, 60, 0.15), transparent 70%);
+  top: -200px;
+  left: -200px;
+  z-index: 0;
+}
+
+.capa::after {
+  content: "";
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(
+    circle,
+    rgba(245, 210, 122, 0.15),
+    transparent 70%
+  );
+  bottom: -200px;
+  right: -200px;
+  z-index: 0;
+}
+
+.champions-logo {
+  width: 550px;
+  max-width: 90%;
+  z-index: 2;
+
+  animation: float 4s ease-in-out infinite;
+
+  filter: drop-shadow(0 0 20px rgba(245, 210, 122, 0.5))
+    drop-shadow(0 0 40px rgba(255, 0, 60, 0.2));
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-12px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.capa-text {
+  margin-top: 35px;
+  text-align: center;
+  z-index: 2;
+}
+
+.capa-text h1 {
+  font-size: 4rem;
+  color: #f5d27a;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+
+  text-shadow:
+    0 0 10px rgba(245, 210, 122, 0.7),
+    0 0 25px rgba(255, 0, 60, 0.4);
+}
+
+.capa-text p {
+  margin-top: 15px;
+  color: #cccccc;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 900px) {
+  #navbar {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #links {
+    gap: 18px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .capa-text h1 {
+    font-size: 2.3rem;
+  }
+
+  .title {
+    display: none;
+  }
+}
+
+.page {
+  width: 80%;
+  min-height: 500px;
+
+  background-color: rgba(85, 85, 85, 0.336);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 20px auto;
+  padding: 30px 0;
+
+  border-radius: 20px;
+}
+
+.interno {
+  width: 90%;
+
+  background-color: rgba(255, 255, 255, 0.336);
+
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+
+  margin: 20px auto;
+  padding: 30px;
+
+  border-radius: 20px;
+}
+
+.time h2 {
+  margin-bottom: 25px;
+  color: #f5d27a;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.players {
+  display: grid;
+
+  grid-template-columns: repeat(5, 1fr);
+
+  gap: 20px;
+
+  justify-items: center;
+  align-items: start;
+}
+
+.jogador {
+  width: 220px;
+  height: 350px;
+
+  background-color: rgb(0, 132, 255);
+  border-radius: 10px;
+
+  position: relative;
+  z-index: 1;
+  transition: 0.3s;
+}
+
+.jogador:hover {
+  transform: translateY(-8px) scale(1.03);
+}
+
+.imagem {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+.funcao{
+    width: 20px;
+    height: 20px;
+    
+}
