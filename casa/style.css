@@ -259,6 +259,7 @@ header {
   position: relative;
   z-index: 1;
   transition: 0.3s;
+
 }
 
 .jogador:hover {
@@ -338,6 +339,7 @@ header {
     transform 0.3s cubic-bezier(.22,.68,0,1.2),
     box-shadow 0.3s ease,
     border-color 0.3s ease !important;
+
 }
 
 .loud-jogador::before {

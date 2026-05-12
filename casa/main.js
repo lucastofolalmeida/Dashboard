@@ -170,7 +170,7 @@ const playersData = {
   },
 
   //FNATIC
-    derke: {
+  derke: {
     nome: "Derke",
     role: "Duelista",
     roleIcon: "assets/duelista_icone.png",
@@ -184,7 +184,7 @@ const playersData = {
     ],
   },
 
-    mistic: {
+  mistic: {
     nome: "Mistic",
     role: "Flex",
     roleIcon: "assets/flex_icone.JPG",
@@ -199,7 +199,7 @@ const playersData = {
     ],
   },
 
-      enzo: {
+  enzo: {
     nome: "Enzo",
     role: "Flex",
     roleIcon: "assets/Flex_icone.JPG",
@@ -214,7 +214,7 @@ const playersData = {
     ],
   },
 
-    boaster: {
+  boaster: {
     nome: "Boaster",
     role: "Flex",
     roleIcon: "assets/flex_icone.JPG",
@@ -225,11 +225,11 @@ const playersData = {
     agentes: [
       { nome: "Viper", imagem: "assets/viper.webp" },
       { nome: "Breach", imagem: "assets/breach.png" },
-       { nome: "Astra", imagem: "assets/astra.png" },
+      { nome: "Astra", imagem: "assets/astra.png" },
     ],
   },
 
-    alfajer: {
+  alfajer: {
     nome: "Alfajer",
     role: "Flex",
     roleIcon: "assets/flex_icone.JPG",
@@ -244,7 +244,7 @@ const playersData = {
     ],
   },
   //LEVIATAN
-    melser: {
+  melser: {
     nome: "Melser",
     role: "controlador",
     roleIcon: "assets/controlador_icone.png",
@@ -259,7 +259,7 @@ const playersData = {
     ],
   },
 
-      tacolilla: {
+  tacolilla: {
     nome: "tacolilla",
     role: "flex",
     roleIcon: "assets/flex_icone.JPG",
@@ -273,7 +273,7 @@ const playersData = {
     ],
   },
 
-     shyy: {
+  shyy: {
     nome: "Shyy",
     role: "iniciador",
     roleIcon: "assets/iniciador_icone.webp",
@@ -283,12 +283,262 @@ const playersData = {
     imagem: "assets/shyy.webp",
     agentes: [
       { nome: "Fade", imagem: "assets/fade.webp" },
-      { nome: "Kayo", imagem: "assets/KAYO.webp" },
+      { nome: "KAY/O", imagem: "assets/KAYO.webp" },
     ],
   },
+
+  kingg: {
+    nome: "Kingg",
+    role: "Flex",
+    roleIcon: "assets/flex_icone.JPG",
+    kd: "1.36",
+    hs: "23%",
+    acs: "260.0",
+    imagem: "assets/kingg.webp",
+    agentes: [
+      { nome: "Raze", imagem: "assets/raze.png" },
+      { nome: "KAY/O", imagem: "assets/KAYO.webp" },
+      { nome: "Viper", imagem: "assets/viper.webp" },
+    ],
+  },
+
+  adverso: {
+    nome: "Adverso",
+    role: "Iniciador",
+    roleIcon: "assets/iniciador_icone.webp",
+    kd: "0.89",
+    hs: "22%",
+    acs: "191.0",
+    imagem: "assets/adverso.webp",
+    agentes: [
+      { nome: "Breach", imagem: "assets/breach.png" },
+      { nome: "Sova", imagem: "assets/sova.png" },
+      { nome: "Viper", imagem: "assets/viper.webp" },
+    ],
+  },
+
   //KIWOOM
+   stax : {
+    nome: "Stax",
+    role: "Iniciador",
+    roleIcon: "assets/iniciador_icone.webp",
+    kd: "0.99",
+    hs: "37%",
+    acs: "172.8",
+    imagem: "assets/stax.webp",
+    agentes: [
+      { nome: "Fade", imagem: "assets/fade.webp" },
+      { nome: "Breach", imagem: "assets/breach.png" },
+      { nome: "Skye", imagem: "assets/skye.png" },
+    ],
+  },
+
+  rb : {
+    nome: "Rb",
+    role: "Sentinela",
+    roleIcon: "assets/sentinela_icone.webp",
+    kd: "0.94",
+    hs: "27%",
+    acs: "192.4",
+    imagem: "assets/rb.webp",
+    agentes: [
+      { nome: "Chamber", imagem: "assets/chamber.png" },
+      { nome: "KAY/O", imagem: "assets/KAYO.webp" },
+      { nome: "Killjoy", imagem: "assets/killjoy.webp" },
+    ],
+  },
+
+  zest : {
+    nome: "Zest",
+    role: "Iniciador",
+    roleIcon: "assets/iniciador_icone.webp",
+    kd: "0.92",
+    hs: "20%",
+    acs: "174.0",
+    imagem: "assets/zest.webp",
+    agentes: [
+      { nome: "Fade", imagem: "assets/fade.webp" },
+      { nome: "Sova", imagem: "assets/sova.png" },
+    ],
+  },
+
+  buzz: {
+    nome: "BuZz",
+    role: "Duelista",
+    roleIcon: "assets/duelista_icone.png",
+    kd: "1.04",
+    hs: "26%",
+    acs: "233.2",
+    imagem: "assets/buzz.webp",
+    agentes: [
+      { nome: "Raze", imagem: "assets/raze.png" },
+      { nome: "Jett", imagem: "assets/jett.webp" },
+      { nome: "Chamber", imagem: "assets/chamber.png" },
+    ],
+  },
+
+  mako: {
+    nome: "MaKo",
+    role: "Controlador",
+    roleIcon: "assets/controlador_icone.png",
+    kd: "1.14",
+    hs: "29%",
+    acs: "207.8",
+    imagem: "assets/mako.webp",
+    agentes: [
+      { nome: "Omen", imagem: "assets/omen.png" },
+      { nome: "Astra", imagem: "assets/astra.png" },
+      { nome: "Viper", imagem: "assets/viper.webp" },
+    ],
+  },
+
   //XSET
+  ayrin: {
+    nome: "Ayrin",
+    role: "Controlador",
+    roleIcon: "assets/controlador_icone.png",
+    kd: "0.89",
+    hs: "20%",
+    acs: "170.4",
+    imagem: "assets/ayrin.webp",
+    agentes: [
+      { nome: "Sage", imagem: "assets/sage.png" },
+      { nome: "Astra", imagem: "assets/astra.png" },
+      { nome: "Viper", imagem: "assets/viper.webp" },
+    ],
+  },
+
+  bcj: {
+    nome: "BcJ",
+    role: "Flex",
+    roleIcon: "assets/flex_icone.JPG",
+    kd: "1.01",
+    hs: "16%",
+    acs: "199.6",
+    imagem: "assets/bcj.webp",
+    agentes: [
+      { nome: "Omen", imagem: "assets/omen.png" },
+      { nome: "Sova", imagem: "assets/sova.png" },
+      { nome: "Fade", imagem: "assets/fade.webp" },
+    ],
+  },
+
+  dephh: {
+    nome: "dephh",
+    role: "Iniciador",
+    roleIcon: "assets/iniciador_icone.webp\'' ",
+    kd: "0.84",
+    hs: "28%",
+    acs: "173.5",
+    imagem: "assets/dephh.webp",
+    agentes: [
+      { nome: "Breach", imagem: "assets/breach.png" },
+      { nome: "Cypher", imagem: "assets/cypher.png" },
+      { nome: "KAYO", imagem: "assets/kayo.webp" },
+    ],
+  },
+
+  zekken: {
+    nome: "zekken",
+    role: "Duelista",
+    roleIcon: "assets/duelista_icone.png",
+    kd: "1.00",
+    hs: "24%",
+    acs: "219.8",
+    imagem: "assets/zekken.webp",
+    agentes: [
+      { nome: "Neon", imagem: "assets/neon.png" },
+      { nome: "Raze", imagem: "assets/raze.png" },
+      { nome: "KAYO", imagem: "assets/kayo.webp" },
+    ],
+  },
+
+  cryocells: {
+    nome: "Cryocells",
+    role: "Duelista",
+    roleIcon: "assets/duelista_icone.png",
+    kd: "1.27",
+    hs: "24%",
+    acs: "232.3",
+    imagem: "assets/cryocells.webp",
+    agentes: [
+      { nome: "Chamber", imagem: "assets/chamber.png" },
+      { nome: "Jett", imagem: "assets/jett.png" },
+    ],
+  },
   //LIQUID
+    jamppi: {
+    nome: "Jamppi",
+    role: "sentinela",
+    roleIcon: "assets/sentinela_icone.webp",
+    kd: "1.13",
+    hs: "24%",
+    acs: "218.7",
+    imagem: "assets/jamppi.webp",
+    agentes: [
+      { nome: "Chamber", imagem: "assets/chamber.png" },
+      { nome: "Sage", imagem: "assets/sage.png" },
+    ],
+  },
+
+    scream: {
+    nome: "ScreaM",
+    role: "Duelista",
+    roleIcon: "assets/duelista_icone.png",
+    kd: "1.11",
+    hs: "29%",
+    acs: "222.3",
+    imagem: "assets/scream.webp",
+    agentes: [
+      { nome: "Phoenix", imagem: "assets/phoenix.png" },
+      { nome: "Raze", imagem: "assets/raze.png" },
+    ],
+  },
+
+      dimasick: {
+    nome: "Dimasick",
+    role: "controlador",
+    roleIcon: "assets/controlador_icone.png",
+    kd: "0.86",
+    hs: "38%",
+    acs: "166.1",
+    imagem: "assets/dimasick.webp",
+    agentes: [
+      { nome: "Omen", imagem: "assets/omen.png" },
+      { nome: "Brimstone", imagem: "assets/brimstone.png" },
+      { nome: "Sova", imagem: "assets/sova.png" },
+    ],
+  },
+  
+      soulcas: {
+    nome: "Soulcas",
+    role: "Iniciador",
+    roleIcon: "assets/Flex_icone.jpg",
+    kd: "0.89",
+    hs: "33%",
+    acs: "182.2",
+    imagem: "assets/soulcas.webp",
+    agentes: [
+      { nome: "KAYO", imagem: "assets/KAYO.png" },
+      { nome: "Skye", imagem: "assets/skye.png" },
+      { nome: "Fade", imagem: "assets/fade.png" },
+    ],
+  },
+  
+        nivera: {
+    nome: "Nivera",
+    role: "Flex",
+    roleIcon: "assets/Flex_icone.jpg",
+    kd: "0.88",
+    hs: "33%",
+    acs: "180.7",
+    imagem: "assets/nivera.webp",
+    agentes: [
+      { nome: "KAYO", imagem: "assets/KAYO.png" },
+      { nome: "Breach", imagem: "assets/breach.png" },
+      { nome: "Viper", imagem: "assets/viper.png" },
+    ],
+  },
   //PHOENIX
   zyppan: {
     nome: "Zyppan",
@@ -323,7 +573,7 @@ const playersData = {
   ange1: {
     nome: "ANGE1",
     role: "Controlador",
-    roleIcon: "assets/controlador_icone.webp",
+    roleIcon: "assets/controlador_icone.png",
     kd: "0.68",
     hs: "10%",
     acs: "159.6",
@@ -353,7 +603,7 @@ const playersData = {
   suygetsu: {
     nome: "SUYGETSU",
     role: "Sentinela",
-    roleIcon: "assets/sentinela_icone.JPG",
+    roleIcon: "assets/sentinela_icone.webp",
     kd: "1.15",
     hs: "36%",
     acs: "209.9",
@@ -455,12 +705,10 @@ document.addEventListener("keydown", (e) => {
   }
 });
 
-
 const championBtn = document.getElementById("championBtn");
 const mvpCard = document.getElementById("mvpCard");
 
 championBtn.addEventListener("click", () => {
-
   if (mvpCard.style.display === "block") {
     mvpCard.style.display = "none";
     championBtn.innerText = "Ver MVP da Final";
@@ -468,13 +716,12 @@ championBtn.addEventListener("click", () => {
     mvpCard.style.display = "block";
     championBtn.innerText = "Ocultar MVP";
   }
-
 });
 
-window.onload = function() {
-    window.scrollTo(0, 0);
+window.onload = function () {
+  window.scrollTo(0, 0);
 };
 
 function refreshPage() {
-    window.location.reload();
+  window.location.reload();
 }
